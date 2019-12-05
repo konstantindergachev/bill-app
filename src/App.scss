@@ -1,43 +1,26 @@
-@import './scss/mixins.scss';
-
-:root{
-  --header-height: rem(100px);
-  --footer-height: rem(100px);
+.container {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 2px 5px 20px gray;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-weight: 400;
-}
-
-html {
-  font-size: 16px;
-}
-
-a,
-a:hover {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow-x: hidden;
-  line-height: 1.7;
-}
-
-strong {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-img {
-  min-width: 100%;
+.btn {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 4px;
+  cursor: pointer;
 }

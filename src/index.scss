@@ -1,0 +1,50 @@
+@import './scss/mixins.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic');
+:root {
+  --header-height: rem(100px);
+  --footer-height: rem(100px);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.42;
+  background: url('./img/bg.png') no-repeat;
+  @include deskfirst(490) {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+strong {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+img {
+  min-width: 100%;
+}

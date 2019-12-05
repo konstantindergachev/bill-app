@@ -1,0 +1,42 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding: 1.5rem;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 1.25rem;
+    font-size: inherit;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    &:last-child {
+      border-top: none;
+    }
+    div {
+      font-weight: 300;
+    }
+    span {
+      padding: 4px;
+      border-radius: 10rem;
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1rem;
+      color: #fff;
+      background-color: #007bff;
+    }
+  }
+  &__edit-btn {
+    display: inline;
+    font-size: 1.8rem;
+    line-height: inherit;
+    transition: all 0.3s linear;
+    text-align: right;
+    cursor: pointer;
+    &:hover {
+      color: #007bff;
+    }
+  }
+}

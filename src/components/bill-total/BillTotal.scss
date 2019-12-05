@@ -1,0 +1,25 @@
+.bill__total-container,
+.total__saved-container {
+  padding: 0 1.5rem;
+  width: 100%;
+  margin: auto;
+  font-weight: 300;
+  font-size: inherit;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bill__total-container {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.total__cost,
+.total__saved {
+  font-weight: 500;
+}
+
+.total-saved-container {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}

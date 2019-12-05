@@ -1,0 +1,55 @@
+.edit__bill {
+  &-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-title,
+  &-input,
+  .delete__btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  &-title,
+  &-input {
+    width: 40%;
+    padding: 10px;
+    font-size: inherit;
+  }
+  &-input {
+    border: none;
+    background-color: transparent;
+  }
+  &-title {
+    text-transform: uppercase;
+  }
+  &-done-btn {
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: inherit;
+    cursor: pointer;
+    display: inline;
+    padding: 0 10px 0 0;
+    transition: all 0.3s linear;
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+.delete__btn {
+  padding: 0 10px;
+  font-size: inherit;
+  // font-size: 14px;
+  // line-height: 28px;
+  color: #ff0000;
+  cursor: pointer;
+}

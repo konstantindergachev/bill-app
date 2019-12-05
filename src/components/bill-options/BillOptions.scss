@@ -1,0 +1,21 @@
+.tabs__container {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selected__interval,
+.interval {
+  margin: 0 5px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #808080;
+  cursor: pointer;
+}
+.selected__interval {
+  color: #ffd700;
+}
+.interval {
+  font-weight: 300;
+}
